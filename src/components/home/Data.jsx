@@ -4,7 +4,6 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">Vasyl Zaturskyi</h1>
-      <svg></svg>
       <h3 className="home__subtitle">Carpenter/Joiner</h3>
       <p className="home__description">
         I'm carpenter/joiner with more than 13 years of professional experience
@@ -14,7 +13,7 @@ const Data = () => {
         Say Hello
       </a>
 
-      <svg className="send"></svg>
+      {/* <svg className="send"></svg> */}
     </div>
   );
 };
